@@ -179,3 +179,16 @@ Examples of IAST tools include:
 - Code Dx
 
 In summary, SAST, DAST, and IAST tools play a crucial role in ensuring the security of software development. Organizations should consider using a combination of these tools to achieve a more comprehensive security approach.
+
+
+
+## Connect & Follow
+
+For more info, please connect and follow me:
+
+- Github: [https://github.com/manikcloud](https://github.com/manikcloud)
+- LinkedIn: [https://www.linkedin.com/in/vkmanik/](https://www.linkedin.com/in/vkmanik/)
+- Email: [varunmanik1@gmail.com](mailto:varunmanik1@gmail.com)
+- Facebook: [https://www.facebook.com/cloudvirtualization/](https://www.facebook.com/cloudvirtualization/)
+- YouTube: [https://bit.ly/32fknRN](https://bit.ly/32fknRN)
+- Twitter: [https://twitter.com/varunkmanik](https://twitter.com/varunkmanik)
