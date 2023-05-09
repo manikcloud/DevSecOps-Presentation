@@ -141,3 +141,40 @@ In conclusion
 - **Graylog**: Graylog is a leading centralized log management solution.
 
 > **Note:** This is a basic flow and can be expanded or altered based on specific project or organization requirements. Other stages like security testing, performance testing, etc., can also be integrated into this pipeline.
+
+
+-------------------------------------------
+
+
+# DevSecOps: SAST, DAST, and IAST Tools
+
+This readme provides an overview of SAST, DAST, and IAST tools commonly used in DevSecOps and their importance in ensuring the security of software development.
+
+## Static Application Security Testing (SAST)
+
+SAST tools analyze the application's source code and binaries for security vulnerabilities. They check for potential security flaws such as input validation errors, SQL injection, cross-site scripting (XSS), and buffer overflows.
+
+Examples of SAST tools include:
+- SonarQube
+- Checkmarx
+- Fortify
+
+## Dynamic Application Security Testing (DAST)
+
+DAST tools perform security testing on running applications, simulating attacks to identify vulnerabilities. They send requests to the application to determine its response and identify potential security weaknesses.
+
+Examples of DAST tools include:
+- Burp Suite
+- OWASP ZAP
+- Netsparker
+
+## Interactive Application Security Testing (IAST)
+
+IAST tools combine the features of both SAST and DAST tools to provide real-time feedback on potential security vulnerabilities during runtime. These tools can detect vulnerabilities in code and runtime environments and provide detailed feedback to developers.
+
+Examples of IAST tools include:
+- Contrast Security
+- RIPS
+- Code Dx
+
+In summary, SAST, DAST, and IAST tools play a crucial role in ensuring the security of software development. Organizations should consider using a combination of these tools to achieve a more comprehensive security approach.
