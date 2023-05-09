@@ -1,14 +1,10 @@
 # DevSecOps: Integrating Security into the DevOps Process
 
-In today's software development landscape 
--  DevSecOps has emerged as an important concept for integrating security into the DevOps process. Traditionally 
--  security has been implemented as an afterthought 
--  leading to increased risk and vulnerabilities. DevSecOps aims to address this issue by making security an integral part of the development process.
+In today's software development landscape, DevSecOps has emerged as an important concept for integrating security into the DevOps process. Traditionally, security has been implemented as an afterthought, leading to increased risk and vulnerabilities. DevSecOps aims to address this issue by making security an integral part of the development process.
 
 ## Prerequisites
 
-To follow along with this demo 
--  you will need the following:
+To follow along with this demo, You will need the following:
 
 - A basic understanding of DevOps principles
 - Familiarity with security concepts and practices
@@ -22,9 +18,14 @@ To get started with the demo
 1. Clone the repository to your local machine:
 
 
+```
+git clone https://github.com/manikcloud/manik-calculator.git
 
+```
 2. Navigate to the cloned directory:
-
+```
+cd manik-calculator
+```
 
 3. Install the necessary dependencies:
 
