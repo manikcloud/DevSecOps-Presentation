@@ -74,3 +74,70 @@ In conclusion
 -  Automated security testing, 
 -  Collaboration across teams 
 -  Organizations can achieve a more secure and efficient development environment. We encourage you to further explore DevSecOps best practices and consider implementing them within your own organization.
+------------------------------------------------
+
+# DevOps Workflow
+
+## User Development Phase:
+
+- Developers write code on their local systems.
+- They can use Integrated Development Environments (IDEs) such as IntelliJ IDEA, Eclipse or VS Code.
+
+## Version Control System:
+
+- Developers push their code to a central repository.
+- Tool used: Git
+    - Git Authentication: SSH
+    - Git Scanning: GitGuardian or Snyk
+- Peer Review: Through Git's built-in pull request and code review system.
+
+## Continuous Integration:
+
+- Upon pushing to the repository, a build is triggered.
+- Tools used: Jenkins or AWS CodePipeline
+    - The code is compiled into a jar or war file.
+    - Unit tests are run using tools like JUnit or TestNG.
+    - Code coverage reports are generated using tools like JaCoCo or Cobertura.
+    - Code quality is scanned using tools like PMD, Checkstyle, or FindBugs.
+    - Vulnerability scanning can be done using the OWASP Dependency Check plugin.
+    - Static code analysis is performed using SonarQube.
+
+## Notification:
+
+- Notifications on build status, test results, scan results, etc. are sent to stakeholders via email, Slack, or other channels. Jenkins, AWS CodePipeline, and SonarQube have features to support these notifications.
+
+## Continuous Deployment/Delivery:
+
+- If all tests pass and scans are clean, the build artifacts (jar/war) are deployed to a staging or production environment.
+- Tools for deployment and orchestration can include AWS CodeDeploy, Jenkins, Docker, and Kubernetes.
+
+## Monitoring & Logging:
+
+- Once deployed, the application is continuously monitored to ensure its health and performance.
+- Tools like AWS CloudWatch, ELK Stack (Elasticsearch, Logstash, Kibana), or Grafana/Prometheus can be used for monitoring and logging.
+
+## Feedback Loop:
+
+- Any issues detected during monitoring or user feedback are used to create new tasks and improvements, beginning the cycle again.
+
+## Post-deployment Scanning Tools:
+
+### Security Scanning:
+
+- **Nessus**: Nessus is a popular vulnerability scanner tool. It is capable of detecting vulnerabilities that need patching.
+- **OpenVAS**: OpenVAS is a framework of several services and tools offering vulnerability scanning and vulnerability management.
+- **OWASP ZAP**: The Zed Attack Proxy (ZAP) is one of the world’s most popular free security tools.
+
+### Performance Monitoring:
+
+- **New Relic**: New Relic's software analytics product provides real-time and trending data about your web application's performance.
+- **AppDynamics**: AppDynamics provides real-time monitoring of your applications to detect anomalies.
+- **Dynatrace**: Dynatrace provides software intelligence to simplify cloud complexity and accelerate digital transformation.
+
+### Log Management:
+
+- **Splunk**: Splunk is a tool to make machine data accessible, usable, and valuable to everyone.
+- **ELK Stack** (Elasticsearch, Logstash, Kibana): Elasticsearch provides search capabilities, Logstash provides centralized logging, and Kibana visualizes data.
+- **Graylog**: Graylog is a leading centralized log management solution.
+
+> **Note:** This is a basic flow and can be expanded or altered based on specific project or organization requirements. Other stages like security testing, performance testing, etc., can also be integrated into this pipeline.
