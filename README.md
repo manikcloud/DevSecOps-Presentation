@@ -19,13 +19,14 @@ To get started with the demo
 
 
 ```
-git clone https://github.com/manikcloud/manik-calculator.git
+git clone https://github.com/manikcloud/DevSecOps-Presentation.git
 
 ```
 2. Navigate to the cloned directory:
 ```
-cd manik-calculator
+cd DevSecOps-Presentation
 ```
+## FOR detailed info: https://github.com/manikcloud/manik-calculator
 
 3. Install the necessary dependencies:
 
