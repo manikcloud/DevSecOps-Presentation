@@ -26,7 +26,7 @@ git clone https://github.com/manikcloud/DevSecOps-Presentation.git
 ```
 cd DevSecOps-Presentation
 ```
-## FOR detailed info: https://github.com/manikcloud/manik-calculator
+## For Detailed Info: https://github.com/manikcloud/manik-calculator
 
 3. Install the necessary dependencies:
 
